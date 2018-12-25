@@ -829,7 +829,7 @@ namespace MediaBrowser.Controller.MediaEncoding
             }
         }
 
-        private void DisposeIsoMount()
+        protected void DisposeIsoMount()
         {
             if (IsoMount != null)
             {
